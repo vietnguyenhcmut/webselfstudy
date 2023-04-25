@@ -1,0 +1,26 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 10px;
+    background-clip: border-box;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+#title {
+    color: #31db4a;
+    font-size: 3rem;
+    text-align: center;
+}
