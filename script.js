@@ -1,12 +1,7 @@
-let student = {
-    name: "Nguyen Van Viet",
-    dob: "01/04/2001",
-    age: 22,
-    introduce: function() {
-        document.write("Hello")
-    }
+const show = {
+    message: "say hi",
+    times: 4
 }
 
-function myfunc() {
-    document.getElementById("introduce").innerHTML = "hello world"
-}
+show.message = "say hello instead"
+console.log(show.message)
