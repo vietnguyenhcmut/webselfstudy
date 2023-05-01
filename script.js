@@ -1,7 +1,7 @@
-const show = {
-    message: "say hi",
-    times: 4
+const message = "say hi"
+num = 4
+if (num >3) {
+    const message = "say hello instead"
+    console.log(message)
 }
-
-show.message = "say hello instead"
-console.log(show.message)
+console.log(message)
