@@ -1,7 +1,3 @@
-const message = "say hi"
-num = 4
-if (num >3) {
-    const message = "say hello instead"
-    console.log(message)
+function myfunc() {
+    document.getElementById("introduce").innerHTML = "changed";
 }
-console.log(message)

@@ -8,13 +8,16 @@
     </head>
  
     <body>
-        
-        <h1 id="title"> Hello World ! </h1>
+        <div class="header">
+            Header
+        </div>
+        <div class="navigator">
+            Navigator
+        </div>
 
-        <p> 
-            HTML code.  <br/>
-            CSS style.
-        </p>
+        <div class="space-header">
+
+        </div>
 
         <table>
             <tr>
@@ -39,14 +42,26 @@
         </form>
 
         <div class="box1">
-            Box 1
+            <p id="introduce">a</p>
         </div>
 
         <div class="box2">
-            <p id="introduce">a</p>
-            student.name
+            Box 2
         </div>
+
         <button type="button" onclick="myfunc()">try it</button>
+
+        <div class="box3" title="this is title">
+            Box 3
+            <div>
+                <div class="box3-child">       <!-- position box3-child lấy theo position box3 do box3 có position gần nhất so với box3-child -->
+                    Box 3 child
+                </div>
+            </div>
+        </div>
+
+
+        
 
         <script src="./script.js"></script>
     </body>

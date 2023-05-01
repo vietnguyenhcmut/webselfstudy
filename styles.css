@@ -1,3 +1,35 @@
+html {
+    font-size: 20px;
+    height: 2000px;
+}
+
+#title {
+    color: #31db4a;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.header {
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    position: relative;
+}
+
+.navigator {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.space-header {
+    margin-top: 10px;
+}
+
 .box1 {
     width: 100px;
     height: 100px;
@@ -6,21 +38,33 @@
     background-clip: border-box;
     border: 1px solid red;
     box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    left: 20px;
 }
+.box3::after {
+    content: attr(title);
+}
+
 .box2 {
-    width: 100px;
+    width: calc(100px + 50px);
     height: 100px;
-    background-color: blue;
-    border: 1px solid red;
+    background-color: rgb(71, 71, 220);
+    border: 1px solid rgb(193, 80, 80);
     box-sizing: border-box;
 }
 
-html {
-    font-size: 20px;
+.box3 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(68, 206, 68);
+    position: absolute;
 }
 
-#title {
-    color: #31db4a;
-    font-size: 3rem;
-    text-align: center;
+.box3-child {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;                 
+    right: 0;
 }
